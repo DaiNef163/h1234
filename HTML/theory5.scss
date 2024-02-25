@@ -1,0 +1,33 @@
+@mixin flexbox(
+  $align: flex-start,
+  $justify: flex-start,
+  $flex-direction: row,
+  $wrap: nowrap
+) {
+  display: flex;
+  align-items: $align;
+  justify-content: $justify;
+  flex-direction: $flex-direction;
+  flex-wrap: $wrap;
+}
+
+body {
+  background-color: #d7d5d5;
+}
+.post {
+  padding: 20px;
+  margin: 50px auto;
+  max-width: 500px;
+  background-color: white;
+  @include flexbox(center);
+
+  &__media {
+    width: 100px;
+    height: 100px;
+    border-radius: inherit;
+    
+  }
+  &__content{
+
+  }
+}

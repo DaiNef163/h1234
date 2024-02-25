@@ -1,0 +1,22 @@
+body {
+  background-color: #d7d5d5;
+}
+
+.post {
+  padding: 20px;
+  margin: 50px auto;
+  max-width: 500px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+.post__media {
+  width: 100px;
+  height: 100px;
+  border-radius: inherit;
+}
+
+/*# sourceMappingURL=theory5.css.map */

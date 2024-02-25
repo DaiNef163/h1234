@@ -1,0 +1,2 @@
+khi dùng thẻ a : dùng target : _blank => để load trang mới
+                 rel = noopener noreferrer

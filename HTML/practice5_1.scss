@@ -1,0 +1,113 @@
+body {
+  width: 100%;
+}
+img {
+  width: 500px;
+  height: 500px;
+  object-fit: cover;
+}
+
+.author {
+  background-color: #eee;
+  max-width: 1000px;
+  margin: 50px auto;
+  display: flex;
+  border-radius: 10px;
+  overflow: hidden;
+  height: 300px;
+  &__image {
+    width: 35%;
+    height: 100%;
+    object-fit: cover;
+  }
+  &__content {
+    width: 65%;
+    padding: 30px;
+  }
+  &__name {
+    font-size: 20px;
+    color: #333;
+    font-weight: bold;
+    margin-bottom: 30px;
+  }
+  &__desc {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+  }
+  &__contact,
+  &-social {
+    display: flex;
+    align-items: center;
+  }
+  &-social {
+    &__item {
+      margin-left: 10px;
+    }
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .author {
+    padding: 0 20px;
+    flex-direction: column;
+    height: auto;
+    &__image {
+      width: 100%;
+      margin-top: 5px;
+    }
+    &__content {
+      width: 100%;
+      padding: 10px;
+    }
+  }
+}
+
+@mixin flexbox(
+  $align: flex-start,
+  $justify: flex-start,
+  $flex-direction: row,
+  $wrap: nowrap
+) {
+  display: flex;
+  align-items: $align;
+  justify-content: $justify;
+  flex-direction: $flex-direction;
+  flex-wrap: $wrap;
+}
+.post {
+  &__list {
+    padding: 20px;
+    @include flexbox(stretch);
+    margin-left: -20px;
+  }
+  
+  &__item {
+    margin-left: 20px;
+    width: calc(100% - 20px);
+  }
+  &__image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  &__content {
+    padding: 20px;
+    background-color: #eee;
+    border: 1px solid black;
+    height: calc(100% - 200px);
+    @include flexbox(flex-start,space-between , column )
+  }
+  &__title {
+    font-size: 20px;
+    margin-bottom: 20px;
+    line-height: 2;
+  }
+  &__author {
+    width: 50px;
+    height: 50px;
+    border-radius: 500px;
+    object-fit: cover;
+    margin-top: auto;
+  }
+}

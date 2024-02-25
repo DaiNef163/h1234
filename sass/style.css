@@ -1,0 +1,48 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 16px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+p {
+  color: rgb(39, 39, 232);
+}
+
+.header-top {
+  color: blue;
+  cursor: pointer;
+}
+.header-top:hover {
+  color: orange;
+}
+.header-content {
+  font-size: 100px;
+}
+
+.boxed {
+  width: 100px;
+  height: 100px;
+  background-color: orange;
+}
+
+.container {
+  width: 600px;
+  height: 600px;
+  background-color: rgb(107, 170, 12);
+  margin: 10px;
+  position: relative;
+}
+.container .boxing {
+  width: 100px;
+  height: 100px;
+  background-color: rgb(23, 221, 221);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/*# sourceMappingURL=style.css.map */

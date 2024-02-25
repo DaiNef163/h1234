@@ -1,0 +1,297 @@
+selector{
+    property : value;
+}
+
+selectors:
+    tag : p , div , h1 ,main , a , span 
+    class : .demo , . header , .boy
+    ID : #container , #footer
+
+property: color , background , ..
+value : red , orange , yellow
+
+==color==
+color : value
+named : red , orange , blue , green
+hexa :#ffa400 , #ff7870
+rgb : rgb(0,0,0) 
+rgba(0,0,0,0.5)
+alpha : opacity : 0->1
+
+==kích thước==
+ overflow : hidden / ẩn nội dung khi bị tràn
+ overflow-x : 
+ overflow-y : auto / có thanh kéo , scroll
+
+
+ min-height : tự động kéo dài ra nếu nội dung bị tràn
+
+
+==các thuộc tính về background==
+cần thiết lập độ rộng chiều cao cho img
+background-position : center center ; trung tâm màn hình 
+background-size : cover ; phủ toàn bộ khung chứa nó 
+
+background-repeat : no-repeat ; khi gặp ảnh nhỏ thì nó bị lặp lại
+background-atachment : fixed;
+
+width : 100vw  ;  viewport width 
+height : 100vh ; viewport height
+
+==rem va em==
+font-size : 100% = 16px
+1 em = 1 rem = 16px
+đơn vị em là đơn vị sẽ phụ thuộc vào thuộc tính font-size của chính nó hoặc phần tử của nó
+đơn vị rem là đơn vị phụ thuộc vào thuộc tính font-size của thẻ html (thẻ root)
+
+
+==border==
+
+border : border-width border-style border-color
+border-style : có 3 loại solid , dotted , dashed
+border-top-right-radius :
+
+outline tương tự border : nhưng không bo tròn radius được
+
+==margin==
+thuộc tính margin có thể sử dụng số âm
+margin : top right bottom left
+margin : top-bottom right-left
+
+center : margin-right:auto 
+         margin-left : auto => chỉ ở giữa đối với thẻ block
+
+margin collapse : giá trị nào có số lớn hơn thì lấy giá trị đó
+
+
+==padding==
+padding : top right bottom left
+
+
+==box-sizing==
+box-sizing : border-box
+nên dùng * { box-sizing : border-box}
+
+==display==
+
+==font==
+https://fonts.google.com/
+font-family
+font-size
+font-weight : độ dày của chữ
+font-style : kiểu chữ ... italic (chữ nghiêng)
+line-height : ;khoảng cách giữa các dòng
+text-align : right  , right , center 
+text-align ; justify; canh đều 2 bên
+letter-spacing : khoảng cách giữa các chữ cái 
+word-spacing : là khoảng cách giữa các từ
+white-space : nowrap ; không bị rớt xuống hàng
+
+overflow : hidden;
+text-overflow :ellipsis ; hiển thị dấu 3 chấm trên 1 hàng
+
+word-break : break-all; xuống dòng nếu hết
+word-break : break-word ; xuống dòng có nghĩa => nên dùng cái này
+
+==css_hinhAnh==
+
+img là thẻ inline => block
+max-width : 100%;
+
+object-fit : cover ; làm cho hình không còn bị méo , lấy center
+
+object-position : top , bottom ,right , left;
+
+==pseudo==
+.pseudo:hover{} di chuột vào là đổi màu
+.pseudo:active{} nhấn vào mới đổi màu
+.pseudo:visited{} nhấn rôi mới đổi 
+
+==gradient css=
+là những thứ làm hình nền va màu chữ băng gradient , mix màu với nhau
+background-image : linear-gradient();
+direction : to right , to left , to bottom , to top , 
+to right bottom , to left bottom , to left top , to right top
+120deg
+color : transparent ; màu chữ trong suốt
+color2
+-webkit-background-clip : text; gradient màu background thành màu chữ
+==background overlay gradient==
+background-image : line-gradient() , url("...link image...");
+
+==can i use==
+dung @support neu khong duoc ho tro
+
+==opacity , visibility , display none==
+opacity : 0; tàng hình nhưng vẫn chiếm diện tích , có thể nhấn vào được
+visibility : hidden; tương tự opacity nhưng không nhấn vào được
+display:none; không chiếm diện tích , không nhấn vào được
+
+==shadow trong css==
+box-shadow : x y blur scale color;
+text-shadow : x y blur  color ;  tex-shadow không có scale
+
+== biến trong css ==
+:root{
+    --primary-color : #00aefd;
+    --secondary-color :#ffa400;
+}
+
+== độ ưu tiên trong css ==
+tag < class < id < !important(không nên dùng nhiều)
+nếu muốn đánh dấu quan trọng dùng !important để đè lên tất cả
+Selector Specificity:(x,y,z)->(tag , class or attribute , id)
+
+==child selector== 
+lấy theo vị trí
+ first-child : chọn cái đầu tiên
+ last-child : cái cuối cùng
+ nth-child(vị trí cần chọn)
+ nth-last-child(từ dưới lên)
+ not(:first-child) : tất cả trừ cái đầu tiên
+ nth-child(even) : lấy vị trí chẵn
+li:first-child span 
+
+ ==type selector==
+lấy theo kiểu
+first-of-type
+những cái khác tương tự child
+
+==combinators==
+//
+
+==CSS selectors nâng cao==
+a[href ^= "http"] : có nghĩa là href có link bắt đầu bằng http 
+a[href $= ".vn" ] : kết thúc bằng
+a[href *= "www" ] : có chứa www là được
+--<div data-title = "value"></div>
+div[data-title="value"]
+Lấy kí tự đầu tiên p::first-letter
+
+== transition ==
+transition : property timer easing;
+cũng có thể dùng transition : all 0.2s linear;
+
+==transform==
+tăng giảm xoay nhưng không gian chứa không thay đổi
+transform: scaleX(2) gấp đôi chiều rộng
+           scaleY(2) gấp đôi chiều ngang
+transform : scale(2,2)
+transform : rotate(deg); xoay 
+transform ; translateX(...) : di chuyển sang trái
+transform ; translateY(...) ; di chuyển sang phải
+transform : skewX(...) skewY(...);
+
+== position : relative == 
+khi dùng thuộc tính này có thể dùng các thuộc tính khác như : right , left , top , bottom
+và nó cũng  tương tự transform di chuyển vật thể nhưng không làm ảnh hưởng các vật thể xung quanh , vẫn ở vị trí cũ
+
+==position : absolute==
+---overlay-
+-cach 1
+top;0
+left:0
+w100%
+h100%
+-cach 2
+top 0
+left 0
+right 0
+bottom 0
+w auto
+h auto   
+
+==position fixed==
+không nên dùng với transform
+
+== before và after ==
+bắt buộc phải có thuộc tính content:"";
+
+====== chương 5 ======
+== flexbox ==
+display : flex;
+flex-direction : row(mặc định),column , row-reserve , 
+align-items : stretch(mặc định) , flex-start , flex-end , center,   baseline ;
+align-self : felx-start,flex-end;
+justify-content: flex-start(mặc định) , flex-end , center , space-between , space-around , space-evenly
+order: ; sắp xếp thứ tự xuất hiện
+
+== sass ==
+$primary-color
+@mixin size($width , $height){
+  width: $width;
+  height: $height;
+}
+.boxed {
+  @include size(100px,100px );
+  background-color: orange;
+}
+
+== responsive ==
+@media screen and (max-width : 1023px){}
+
+
+== flex dacbiet == 
+felx-shrink
+flex-grow
+
+
+== Form ==
+
+trong thẻ form có autocomplete="on" : lưu tk mk cũ
+
+imput type = 'text' required
+minlength="" : độ dài kí tự tối thiểu
+maxlength="" : độ dài kí tự tối đa
+imput type = 'number'
+min=""
+imput type = 'email'
+imput type = 'password'
+imput type = 'phone'
+imput type = 'date'
+imput type = 'time'
+imput type = 'checkbox'
+imput type = 'radio'
+imput type = 'file'
+button type submit --
+      type reset 
+readonly : không thể nhập
+disable : không thể làm gì
+
+for của lable : khi nhấn vào lable thì trỏ tới thg input được chỉ định theo id
+khi truyền vào name : ở checkbox thì có thể chọn hết , nhưng ở radio thì chỉ có thể chọn 1 cái
+input submit không thể truyền icon vào được như button submit
+
+textare : ô nhập nội dung , ô soạn thảo văn bản 
+select
+  option 
+thẻ slect bên trong sẽ có các option
+
+input[type="number"]::-webkt-inner-spin-button{
+  margin : 0
+  -webkit-appearance : none
+} ẩn icon ấn lên xuống
+
+input:focus{
+  border : 1 px solid red ;
+}
+
+
+
+
+==table==
+phía trên của bảng dùng 
+
+  <thead>
+    <tr>
+      <th>
+        sử dụng &nbsp trong thẻ th để tạo khoảng trống
+      </th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <tr>
+      <td></td>
+    </tr>
+  </tbody>

@@ -1,0 +1,23 @@
+
+
+
+
+p{
+    color: wheat;
+}
+.wrap {
+    width: 600px;
+    height: 600px;
+    background-color: black;
+    position: relative;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+}

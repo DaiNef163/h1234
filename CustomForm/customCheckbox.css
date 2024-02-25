@@ -1,0 +1,29 @@
+body {
+  margin: 20px;
+}
+
+.button-style {
+  width: 100%;
+  padding: 20px;
+  border-radius: 10px;
+  border: 0;
+  outline: none;
+  color: white;
+  font-weight: 600;
+  font-size: 18px;
+  margin-top: 20px;
+  cursor: pointer;
+  background-color: #fd607d;
+  transition: background-color linear 0.25s;
+  box-shadow: 0 5px 0 0 #7e3946;
+}
+.button-style:hover {
+  background-color: #FFE1DE;
+  color: #fd607d;
+}
+.button-style:active {
+  box-shadow: 0 2px 0 0 #7e3946;
+  transform: translateY(3px);
+}
+
+/*# sourceMappingURL=customcheckbox.css.map */

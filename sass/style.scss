@@ -1,0 +1,53 @@
+$primary-color: rgb(39, 39, 232);
+
+html {
+  font-size: 62.5%;
+}
+body {
+  font-size: 16px;
+  font-family: "Times New Roman", Times, serif;
+}
+p {
+  color: $primary-color;
+}
+
+.header {
+  &-top {
+    color: blue;
+    cursor: pointer;
+    &:hover {
+      color: orange;
+    }
+  }
+  &-content {
+    font-size: 100px;
+  }
+}
+
+@mixin size($width, $height) {
+  width: $width;
+  height: $height;
+}
+@mixin absoluteCenter() {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.boxed {
+  @include size(100px, 100px);
+  background-color: orange;
+}
+
+.container {
+  @include size(600px, 600px);
+  background-color: rgb(107, 170, 12);
+  margin: 10px;
+  position: relative;
+  .boxing {
+    @include size(100px, 100px);
+    background-color: rgb(23, 221, 221);
+    @include absoluteCenter();
+  }
+}

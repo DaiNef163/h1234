@@ -1,0 +1,96 @@
+:root {
+    --primary-color: #58de33;
+    --secondary-color: rgb(41, 87, 240);
+}
+
+.box2 {
+    width: 200px;
+    height: 200px;
+    background-color: pink;
+    transition: background-color 1s linear , color 1s linear;
+    cursor: pointer;
+}
+.box2:hover{
+    background-color: #58de33;
+    color: white;
+}
+ul {
+    font-size: 100px;
+    font-weight: bold;
+}
+
+li:first-child {
+    color: red;
+}
+li:first-of-type {
+    color: blue;
+}
+/* li:last-child{
+    color: orange;
+}
+li:nth-child(2){
+    color: purple;
+}
+li:nth-child(4){
+    color: violet;
+} */
+
+.root_color {
+    width: 200px;
+    height: 200px;
+    background-color: var(--primary-color);
+}
+
+.box_shadow {
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    margin: 2rem auto;
+    box-shadow: -13px -12px 9px 6px red;
+}
+
+.text_shadow {
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: -6px -7px 10px rgb(232, 79, 79);
+    background-image: linear-gradient(to right bottom, rgb(24, 24, 201), rgb(67, 236, 67));
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+
+.box1 {
+    height: 200px;
+    width: 200px;
+    background-color: blue;
+    cursor: pointer;
+    opacity: 0;
+    visibility: hidden;
+    display: none;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 100px;
+    display: inline-block;
+    margin: 1rem;
+}
+
+@supports (-webkit-background-clip: text) {
+    .title {
+        color: transparent;
+        background-image: linear-gradient(to right bottom, blue, pink);
+        -webkit-background-clip: text;
+        background-clip: text;
+    }
+}
+
+.boxed {
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(to right bottom, rgba(0, 0, 255, 0.313), rgba(192, 255, 204, 0.437)),
+        url("https://images.unsplash.com/photo-1578133507770-a35cc3c786e6?w=700&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8c2hpYmElMjBpbnV8ZW58MHx8MHx8fDA%3D");
+    background-repeat: no-repeat;
+    background-size: cover;
+}

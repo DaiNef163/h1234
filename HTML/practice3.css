@@ -1,0 +1,71 @@
+
+
+div[data-link ^= "http"]{
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(171, 233, 0);
+}
+
+div[data-link $= ".vn"]{
+    color: blue;
+}
+
+div[data-name *= "hello"]{
+    color: brown;
+}
+input[type="email"]{
+    background-color: chartreuse;
+}
+input[name="fullname"]{
+    background-color: violet;
+}
+
+.child .color_item{
+    width: 100px;height: 200px;cursor: pointer;
+    display: inline-block;
+    border-radius: 10px;
+    margin: 10px;
+}
+.color_item:first-child{
+    background-color: rgb(210, 70, 70);
+}
+.color_item:last-child{
+    background-color: blue;
+}
+.color_item:nth-child(2){
+    background-color: aqua;
+}
+.color_item:nth-child(3){
+    background-color: rgb(221, 221, 112);
+}
+.color_item:nth-child(4){
+    background-image: linear-gradient(to right bottom , rgb(178, 240, 64) , rgb(18, 217, 114));
+}
+.color_item:first-child:hover{
+    background-color: rgb(31, 234, 245);
+    transition: all 0.5s linear;
+}
+
+
+.text{
+    font-size: 200px;
+    font-weight: bold;
+    background-image: linear-gradient(to right bottom , rgb(238, 132, 57) , rgb(234, 39, 224));
+    display: inline-block;
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+
+.button{
+   padding: 10px 50px;
+   background-color: pink;
+   display: inline-block;
+   text-transform: uppercase;
+   color: white;
+   margin: 1rem;
+   border-radius: 10px;
+   box-shadow: -8px -5px 20px 0px rgb(39, 130, 222) ;
+   background-image: linear-gradient(to right , rgb(52, 124, 158) , rgb(39, 186, 240));
+}
+

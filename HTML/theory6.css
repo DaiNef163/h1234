@@ -1,0 +1,15 @@
+input,
+select,
+textarea,
+button{
+	outline: none;
+    font-size: 16px;
+    font-family:"Poppins" , sans-serif ;
+    font-weight: normal;
+}
+textarea{
+    resize: none;
+}
+input:focus{
+    border: 2px solid rgb(5, 225, 5);
+}

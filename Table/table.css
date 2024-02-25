@@ -1,0 +1,88 @@
+table {
+  width: 100%;
+}
+table th {
+  color: #8c94a7;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 20px;
+}
+table thead tr {
+  border-bottom: 1px solid #ccc;
+}
+table td {
+  color: #8c94a7;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 20px;
+}
+table .desc {
+  white-space: nowrap;
+  max-width: 150px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+table .status {
+  display: inline-block;
+  padding: 10px 30px;
+  text-align: center;
+  font-style: 12px;
+  font-weight: bold;
+}
+table .status-active {
+  color: green;
+  background-color: rgba(0, 128, 0, 0.2);
+  border-radius: 10px;
+}
+table .action-icon {
+  cursor: pointer;
+  margin: 0 5px;
+}
+table .toggle-input {
+  display: none;
+}
+table .toggle-input:checked + .toggle-label {
+  background-color: #00aefd;
+}
+table .toggle-input:checked + .toggle-label::before {
+  background-color: #2979ff;
+  transform: translate(40px, -50%);
+  transition: all linear 0.25s;
+}
+table .toggle-label {
+  width: 50px;
+  height: 5px;
+  border-radius: 10px;
+  background-color: #ccc;
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
+  transition: all linear 0.25s;
+}
+table .toggle-label::before {
+  content: "";
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #ccc;
+  left: 0;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  transition: all linear 0.25s;
+}
+
+@media screen and (max-width: 1279px) {
+  .table {
+    width: 100%;
+    overflow-x: auto;
+  }
+  .table::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+/*# sourceMappingURL=table.css.map */

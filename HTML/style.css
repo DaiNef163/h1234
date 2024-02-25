@@ -1,0 +1,71 @@
+p{
+    color: blue;
+    color: rgb(255,50,200);
+    color: rgba(151, 246, 10, 0.5);
+}
+.overflow{
+    width: 100px;
+    /* height: 100px; */
+    min-height: auto;
+    background-color: bisque;
+    /* overflow-y: auto; */
+}
+
+.padding{
+    width: 10rem;
+    height: 10rem;
+    background-color: blue;
+    margin: 0 auto;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.box_sizing{
+    width: 100px;
+    height: 100px;
+    border: 5px solid black;
+    padding: 10px;
+    margin: 0 auto;
+    background-color: aquamarine;
+    box-sizing: content-box;
+}
+
+.display a{
+    width: 100px;
+    height: 100px;
+    text-decoration: none;
+    background-color: aquamarine;
+    padding: 10px;
+    display: inline-block;
+}
+.font p{
+    color: black;
+    word-break:break-all;
+    word-break: break-word;
+}
+img{
+    display: block;
+    max-width: 100%;
+}
+.image{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    object-position: top;
+    /* display: inline-block; */
+    margin: 0 auto;
+    border-radius: 50%;
+}
+.pseudo p{
+    color: black;
+    display: inline-block;
+}
+.pseudo .hover:hover{
+    color: blue;
+}
+.pseudo .active:active{
+    color: red;
+}
+.pseudo .visited:visited{
+    color: palevioletred;
+}

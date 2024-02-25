@@ -1,0 +1,143 @@
+Nội Dung Khóa Học
+Chương 1: Kiến thức HTML cần nắm vững
+Bài 1: Giới thiệu khoá học
+Bài 2: Thiết lập code editor cơ bản
+Bài 3: Cấu trúc một file HTML cơ bản như thế nào?
+Bài 4: Các thẻ HTML cơ bản nên biết (phần 1)
+Bài 5: Các thẻ HTML cơ bản nên biết (phần 2)
+Bài 6: Thẻ Inline và thẻ Block khác nhau như thế nào?
+Bài 7: Sự khác nhau giữa Class và Id
+Bài 8: BEM là gì ? Tìm hiểu về BEM toàn tập
+Bài 9: Thực hành phân tích giao diện cơ bản với BEM
+Bài 10: Bài tập chương 1
+Bài 11: Giải bài tập chương 1
+Bài 12: Nắm vững Emmet cơ bản trong VSCode
+Chương 2: Kiến thức CSS cơ bản phần 1
+Bài 13: CSS reset là gì ? Tại sao phải dùng reset CSS?
+Bài 14: Cấu trúc của 1 đoạn code trong CSS như thế nào?
+Bài 15: Tìm hiểu thuộc tính color, các giá trị về màu sắc cần nắm vững
+Bài 16: Nắm vững kiến thức về kích thước trong CSS
+Bài 17: Làm hình nền với các thuộc tính về background
+Bài 18: Các đơn vị trong css nên biết
+Bài 19: Đơn vị em và rem khác nhau như thế nào?
+Bài 20: Thuộc tính về border cơ bản
+Bài 21: Nắm rõ thuộc tính margin
+Bài 22: Hiểu về thuộc tính padding
+Bài 23: Tìm hiểu về box-sizing trong CSS
+Bài 24: Tìm hiểu thuộc tính display
+Bài 25: Các thuộc tính liên quan tới Font cơ bản
+Bài 26: Các thuộc tính liên quan tới chữ bạn cần biết
+Bài 27: Tìm hiểu thuộc tính cho hình ảnh
+Bài 28: Pseudo là gì ? Các pseudo cơ bản người mới học nên biết
+Bài 29: Bài tập chương 2 (Phần 1)
+Bài 30: Bài tập chương 2 (phần 2)
+Chương 3: Kiến thức CSS cơ bản phần 2
+Bài 31: Cách làm hình nền gradient, chữ gradient trong CSS
+Bài 32: Hiển thị 2 hình nền với background-image
+Bài 33: caniuse là gì ? Và tại sao bạn nên biết
+Bài 34: Sự khác nhau giữa 3 thuộc tính opacity: 0, display:none, visibility:hidden
+Bài 35: Tìm hiểu về shadow trong CSS
+Bài 36: Sử dụng biến trong CSS như thế nào?
+Bài 37: Hiểu rõ về độ ưu tiên trong CSS, xác định độ ưu tiên trong CSS đơn giản với VSCode
+Bài 38: Nắm vững kiến thức về child selectors
+Bài 39: Nắm vững kiến thức về type selectors
+Bài 40: Thành thạo combinators trong CSS
+Bài 41: Tìm hiểu thêm các selectors nâng cao
+Bài 42: Nắm vững thuộc tính transition cơ bản
+Bài 43: Bài tập chương 3
+Chương 4: Kiến thức CSS nâng cao
+Bài 44: Thuộc tính transform để làm gì ? Tìm hiểu các giá trị hay dùng của transform
+Bài 45: Tìm hiểu thuộc tính position relative
+Bài 46: Master thuộc tính position absolute
+Bài 47: Hiểu rõ position fixed hoạt động
+Bài 48: Thực hành với thuộc tính position #1
+Bài 49: Thực hành với thuộc tính position #2
+Bài 50: Thực hành với thuộc tính position #3
+Bài 51: Thực hành với thuộc tính position #4
+Bài 52: Hiểu và nắm tốt pseudo :before vs :after khó nhằn trong CSS
+Bài 53: Thực hành với pseudo before và after #1
+Bài 54: Thực hành với pseudo before và after #2
+Bài 55: Thực hành với pseudo before và after #3
+Bài 56: Thực hành với pseudo before và after #4
+Bài 57: Tại sao before và after quan trong và lưu ý khi làm với việc với thuộc tính transform
+Bài 58: Animation là gì ? Tìm hiểu và nắm kiến thức về animation cơ bản
+Bài 59: Thực hành với animation #1
+Bài 60: Thực hành với animation #2
+Chương 5: Flexbox toàn tập
+Bài 61: Flexbox là gì ? Giới thiệu về Flexbox
+Bài 62: Flexbox toàn tập #1
+Bài 63: Flexbox toàn tập #2
+Bài 64: Flexbox toàn tập #3
+Bài 65: Các thủ thuật chia layout hay mà bạn nên biết khi dùng flexbox
+Bài 66: Cách vẽ tam giác bằng CSS và cách nó hoạt động
+Bài 67: Sass là gì ? Giới thiệu và cài đặt
+Bài 68: Tìm hiểu và nắm cơ bản kiến thức về Sass cho người mới
+Bài 69: Các lỗi hay gặp khi cài đặt Sass và cách khắc phục
+Bài 70: Thực hành code giao diện Dropdown #1
+Bài 71: Thực hành code giao diện Dropdown #2
+Bài 72: Thực hành code giao diện Dropdown #3
+Bài 73: Thực hành code giao diện đơn giản số 1 với flexbox #1
+Bài 74: Thực hành code giao diện đơn giản số 1 với flexbox #2
+Bài 75: Thực hành code giao diện đơn giản số 1 với flexbox #3
+Bài 76: Responsive là gì ? Giới thiệu về Responsive toàn tập
+Bài 77: Thực hành code giao diện đơn giản số 1 sử dụng responsive
+Bài 78: Thực hành code giao diện đơn giản số 2
+Bài 79: Thực hành code giao diện đơn giản số 3
+Bài 80: Tìm hiểu thêm các thuộc tính khác của flexbox
+Bài 81: Thực hành code giao diện nâng cao phần 1
+Bài 82: Thực hành code giao diện nâng cao phần 2
+Bài 83: Thực hành code giao diện nâng cao phần 3
+Bài 84: Thực hành code giao diện nâng cao phần cuối
+Chương 6: Các thẻ HTML về Form, Table
+Bài 85: Tìm hiểu các thẻ về Form phần 1
+Bài 86: Tìm hiểu các thẻ về Form phần 2
+Bài 87: Hướng dẫn cách làm custom checkbox
+Bài 88: Hướng dẫn cách làm custom radio
+Bài 89: Hướng dẫn cách làm custom input file
+Bài 90: Hướng dẫn cách làm custom checkbox toggle
+Bài 91: Hướng dẫn code hiệu ứng cho input, textarea, button
+Bài 92: Thực hành code giao diện form tổng hợp phần 1
+Bài 93: Thực hành code giao diện form tổng hợp phần 2
+Bài 94: Thực hành code giao diện form tổng hợp phần 3
+Bài 95: Thực hành code giao diện form tổng hợp phần cuối
+Bài 96: Tìm hiểu các thẻ về bảng
+Bài 97: Hướng dẫn code giao diện bảng phần 1
+Bài 98: Hướng dẫn code giao diện bảng phần 2
+Bài 99: Hướng dẫn làm responsive cho bảng
+Chương 7: Các kiến thức bổ sung
+Bài 100: Tìm thiết kế ở đâu để tập luyện kỹ năng HTML CSS ?
+Bài 101: Chia sẻ các từ tiếng Anh hay gặp khi đặt tên với BEM
+Bài 102: Code siêu nhanh với VSCode Custom Snippets
+Bài 103: Làm sao cải thiện con mắt thẩm mỹ
+Bài 104: Một số kênh youtube hay về HTML CSS
+Bài 105: Một số tài khoản Instagram hay mà các bạn nên theo dõi
+Bài 106: Các extensions bổ ích mà bạn nên dùng
+Bài 107: Chia sẻ kinh nghiệm làm sao code tốt hơn
+Bài 108: Các thuật ngữ trong ngành web mà bạn nên biết
+Bài 109: Codepen là gì ? Và vì sao bạn nên biết
+Bài 110: Các kỹ năng khác nên có cho một Developer
+Bài 111: Tìm hiểu thêm vài kiến thức về CSS khác
+Bài 112: Làm sao để tuỳ biến giao diện cho WordPress với CSS cơ bản
+Bài 113: Vẽ vời với sức mạnh của thuộc tính box-shadow
+Bài 114: Hướng dẫn làm hình nền chéo với transform skew
+Bài 115: Xử lý hình nền phức tạp hơn với thuộc tính clip-path
+Bài 116: Tìm hiểu cách làm gradient cho border
+Bài 117: Phân tích một Animation đường tròn hoạt động
+Bài 118: Tìm hiểu backdrop-filter và cách làm responsive cho video theo tỉ lệ 16:9
+Bài 119: Lời cám ơn, chia sẻ cuối khoá, spoil sản phẩm sắp tới cực chất
+Bài 120: CSS Grid cơ bản phần 1
+Bài 121: CSS Grid cơ bản phần 2
+Bài 122: CSS Grid cơ bản phần 3
+Bài 123: CSS Grid cơ bản phần 4
+Bài 124: CSS Grid cơ bản phần 5
+Bài 125: CSS Grid cơ bản phần 6
+Bài 126: CSS Grid cơ bản phần 7
+Bài 127: Hướng dẫn làm responsive hình ảnh, video theo tỉ lệ
+Bài 128: Sử dụng biến hiệu quả trong CSS
+Bài 129: Hướng dẫn tạo custom checkbox cách 2
+Bài 130: Xử lý input autofill background với box-shadow
+Bài 131: Hướng dẫn tạo ribbon với thuộc tính clip-path
+Bài 132: Hướng dẫn tuỳ biến thanh scrollbar trong CSS
+Bài 133: Hiểu cơ bản về đường dẫn trong code
+Bài 134: Các lỗi người mới hay gặp cần để ý
+Bài 135: Hướng dẫn chia Form layout với CSS Grid cực hay
